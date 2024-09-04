@@ -1,10 +1,20 @@
 # Escribe un programa que convierta una temperatura de grados Celsius a grados Fahrenheit.
-def celsius_top_fahrenheit(celsius):
-  fahrenheit= (celsius*3/5+32)
+def valor():
+  celsius = float(input("Indica los grados Celsius que deseas convertir a Fahrenheit "))
+  return celsius
+
+def celsius_to_fahrenheit(celsius):
+  fahrenheit= (celsius * 9/5 +32)
   return fahrenheit
 
-fahrenheit = celsius_top_fahrenheit(3)
-print(fahrenheit)
+celsius = valor()
+fahrenheit= celsius_to_fahrenheit(celsius)
+
+print(f"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit")
+
+
+
+
 
 
 
