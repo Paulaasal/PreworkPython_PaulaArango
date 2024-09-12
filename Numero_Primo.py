@@ -1,22 +1,16 @@
+# Función para verificar si un número es primo
 def es_primo(numero):
-    if numero <= 1:
+    if numero < 2:
         return False
-    # for i in range(2, int(numero ** 0.5) + 1):
-    for i in range(2, int(numero)-1):
+    for i in range(2, int(numero**0.5) + 1):
         if numero % i == 0:
             return False
     return True
 
-def main():
-    try:
-        numero = int(input("Introduce un número entero: "))
-        if es_primo(numero):
-            print(f"El número {numero} es primo.")
-        else:
-            print(f"El número {numero} no es primo.")
-    except ValueError:
-        print("Por favor, introduce un número entero válido.")
+numero_usuario = int(input("Introduce un número: "))
+if es_primo(numero_usuario):
+    print(f"El número {numero_usuario} es primo.")
+else:
+    print(f"El número {numero_usuario} no es primo.")
 
-if __name__ == "__main__":
-    main()
 
