@@ -1,15 +1,15 @@
-def valor():
-  año_nacimiento = int(input("introduce tu año de nacimiento"))
-  return año_nacimiento
+#Escribe un programa que solicite al usuario su año de nacimiento y calcule su edad actual.
 
-def años():
-  edad= (2024 - año_nacimiento )
-  return edad
+from datetime import datetime
 
-año_nacimiento = valor()
-edad = años()
-  
-print (input(f"actualmente tienes {edad} años"))
+año_nacimiento = int(input("introduce el año de tu nacimiento "))
+año_actual= datetime.now().year
+
+edad = año_actual - año_nacimiento
+
+print (f"Tu edad es: {edad} años")
+
+
 
   
   
