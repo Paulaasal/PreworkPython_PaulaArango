@@ -1,4 +1,4 @@
-"""Crea un programa que calcule el monto total a pagar en un restaurante, incluyendo una propina del 15% sobre el total de la cuenta."""
+#Crea un programa que calcule el monto total a pagar en un restaurante, incluyendo una propina del 15% sobre el total de la cuenta.
 plato_1= 32
 plato_2= 12
 plato_3= 6

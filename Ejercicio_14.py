@@ -1,4 +1,4 @@
-# calcule el precio final de un artículo después de aplicar un descuento determinado por el usuario
+# Calcule el precio final de un artículo después de aplicar un descuento determinado por el usuario.
 def precio_articulo():
   precio = float(input("Introduce el precio del artículo "))
   return precio

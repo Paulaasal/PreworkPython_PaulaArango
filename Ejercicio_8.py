@@ -1,3 +1,4 @@
+# Escribe un programa que calcule el índice de Masa corporal (IMC) de una persona
 def valores():
   print("Bienvenido. Para calcular tu IMC necesito que me proporciones unos datos")
   peso = float(input("Introduce tu peso en Kg: "))

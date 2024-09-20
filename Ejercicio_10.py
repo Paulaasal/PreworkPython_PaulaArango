@@ -14,16 +14,3 @@ if numero_dia in dia_semana:
   print (f"El numero introducido equivale al día {dia_semana[numero_dia]}")
 else: 
   print ("Número no valido")
-
-
-
-      
-      
-      
-
-
-
-
-
-
-

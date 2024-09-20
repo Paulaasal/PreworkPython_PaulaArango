@@ -1,5 +1,4 @@
-
-# Definir funciones para las operaciones
+# Crea un programa que realice operaciones aritméticas simples (suma, resta, multiplicación, división) según elección del usuario
 def sumar(a, b):
     return a + b
 

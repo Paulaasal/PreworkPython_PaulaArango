@@ -1,6 +1,6 @@
 # Conversor de Tiempo. Escribe un programa que convierta un número de minutos en horas y minutos.
 def valor():
-  minutos = float (input("Introduce el número de minutos que deseas convertir a horas"))
+  minutos = float (input("Introduce el número de minutos que deseas convertir a horas "))
   return minutos
 
 def horas_minutos(minutos):
